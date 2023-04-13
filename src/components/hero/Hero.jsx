@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Typed from "typed.js";
 
 const Hero = () => {
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["BTB", "BTC", "SASS"],
+      typeSpeed: 120,
+      backSpeed: 140,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   return (
     <div className="text-white font-sans">
       <div className="max-w-[800px] mt-[-96px] w-full h-[100dvh] mx-auto text-center flex flex-col justify-center">
@@ -13,8 +30,12 @@ const Hero = () => {
 
         <div className="flex justify-center items-center animate-zoomOut">
           <p className="md:text-4xl sm:text-4xl text-xl font-bold py-4">
-            fast, flexible, financing for BTB, BTC...
+            fast, flexible, financing for
           </p>
+          <span
+            className="md:text-4xl sm:text-4xl text-xl font-bold py-4 pl-2 text-gray-300"
+            ref={el}
+          />
         </div>
         <p
           className="md:text
