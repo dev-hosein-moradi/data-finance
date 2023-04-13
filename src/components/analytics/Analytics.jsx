@@ -12,11 +12,8 @@ const Analytics = () => {
       <div className="max-w-[1024px] mx-auto grid md:grid-cols-2">
         <img
           data-aos="fade-up-right"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
           className="w-[500px] mx-auto my-4"
           src={Laptop}
           alt="laptop"
@@ -24,11 +21,8 @@ const Analytics = () => {
 
         <div
           data-aos="fade-up-left"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
           className="flex flex-col justify-center"
         >
           <p className="text-[#00df9a] font-bold uppercase">

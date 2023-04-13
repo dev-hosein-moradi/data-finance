@@ -7,11 +7,8 @@ const Newsletter = () => {
         <h1
           className="text-[#ffffff] font-bold md:text-3xl sm:text-2xl text-xl"
           data-aos="zoom-in"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
         >
           Want tips & tricks to optimize your flow?
         </h1>
@@ -19,11 +16,8 @@ const Newsletter = () => {
         <p
           className="text-gray-300 md:text-xl font-medium py-1 tracking-wide"
           data-aos="zoom-in"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
         >
           sign up to our newsletter and stay up to date.
         </p>
@@ -37,21 +31,15 @@ const Newsletter = () => {
           placeholder="Enter your email"
           autoComplete="off"
           data-aos="fade-up"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
         />
 
         <button
           className="bg-[#00df9a] w-[20%] min-w-[90px] h-12 font-medium rounded-md hover:border-2 hover:border-[#00df9a] hover:text-[#00df9a] hover:bg-[#000000] ease-in-out duration-300"
           data-aos="fade-up"
-          data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
         >
           Notify me
         </button>
@@ -60,11 +48,8 @@ const Newsletter = () => {
       <span
         className="flex"
         data-aos="fade-up"
-        data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
       >
         <p className="text-gray-300">
           we care about the protection of your data. Read our{" "}

@@ -51,11 +51,8 @@ const Cards = () => {
                 : "bg-[#ffffff] hover:scale-105 "
             }`}
             data-aos="flip-left"
-            data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
           >
             <img
               className="w-[100px] mx-auto -translate-y-8"

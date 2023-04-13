@@ -28,8 +28,6 @@ const Footer = () => {
               data-aos="zoom-in-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
             >
               <AiFillGithub size={30} className="text-[#00df9a]" />
             </li>
@@ -38,8 +36,6 @@ const Footer = () => {
               data-aos="zoom-in-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
             >
               <AiFillLinkedin size={30} className="text-[#00df9a]" />
             </li>
@@ -48,8 +44,6 @@ const Footer = () => {
               data-aos="zoom-in-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
             >
               <AiOutlineInstagram size={30} className="text-[#00df9a]" />
             </li>
@@ -58,8 +52,6 @@ const Footer = () => {
               data-aos="zoom-in-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              data-aos-once="false"
             >
               <BsTelegram size={30} className="text-[#00df9a]" />
             </li>
@@ -73,8 +65,6 @@ const Footer = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
           >
             <li className="py-2 cursor-pointer hover:text-[#00df9a] ease-in-out duration-100">
               Solutions
@@ -94,8 +84,6 @@ const Footer = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
           >
             <li className="py-2 cursor-pointer hover:text-[#00df9a] ease-in-out duration-100">
               Support
@@ -115,8 +103,6 @@ const Footer = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
           >
             <li className="py-2 cursor-pointer hover:text-[#00df9a] ease-in-out duration-100">
               Solutions
@@ -136,8 +122,6 @@ const Footer = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
           >
             <li className="py-2 cursor-pointer hover:text-[#00df9a] ease-in-out duration-100">
               Support
